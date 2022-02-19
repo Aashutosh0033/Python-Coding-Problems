@@ -76,3 +76,6 @@ obj.getString()
 obj.printString()
 ```
 
+### Question 6
+
+
