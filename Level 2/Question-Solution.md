@@ -4,7 +4,14 @@ Question: Write a program that calculates and prints the value according to the 
 Hints: If the output received is in decimal form, it should be rounded off to its nearest value (for example, if the output received is 26.0, it should be printed as 26) In case of input data being supplied to the question, it should be assumed to be a console input.<br><br>
 Solution:
 ```python
+print("C = 50\nH = 30")
+c = 50
+h = 30
+d = input("Enter comma seperated values of variable D : ")
+list = [int(x) for x in d.split(',')]
 
+list2 = [str(((2*c*x)/h)**(1/2)) for x in list]
+print(', '.join(list2))
 ```
 
 ### Question 2
@@ -13,5 +20,20 @@ Question: Write a program which takes 2 digits, X,Y as input and generates a 2-d
 Hints: Note: In case of input data being supplied to the question, it should be assumed to be a console input in a comma-separated form.<br><br>
 Solution:
 ```python
+r = int(input("Enter the number of rows : "))
+c = int(input("Enter the number of columns : "))
 
+list = [[x*y for x in range(c)] for y in range(r)]
+print(list)
+```
+
+### Question 3 
+Question: Write a program that accepts a comma separated sequence of words as input and prints the words in a comma-separated sequence after sorting them alphabetically. Suppose the following input is supplied to the program: without,hello,bag,world Then, the output should be: bag,hello,without,world
+
+Hints: In case of input data being supplied to the question, it should be assumed to be a console input.<br><br>
+Solution:
+```python
+w = input("Enter comma seperated words : ")
+list = [x for x in w.split(',')]
+print(','.join(sorted(list)))
 ```
