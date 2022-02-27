@@ -1,4 +1,7 @@
 # Python-Coding-Problems
+
+![Untitled design (7)](https://user-images.githubusercontent.com/83531337/155879662-e7a477ac-6e99-404f-8c10-b710718c992a.png)
+
  This Repo contains coding problems with their solutions in python language.  
  The problems in this repo are a reference from https://github.com/zhiwehu/Python-programming-exercises and the solutions to these problems are given by me.
  If you can optimize them more please go ahead.
