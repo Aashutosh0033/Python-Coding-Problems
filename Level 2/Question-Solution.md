@@ -111,3 +111,30 @@ while(i<len(list1)):
 print(' '.join(list2))
 ```
 
+
+### Question 7
+
+Level 2
+
+Question: Write a program, which will find all such numbers between 1000 and 3000 (both included) such that each digit of the number is an even number. The numbers obtained should be printed in a comma-separated sequence on a single line.
+Hints: In case of input data being supplied to the question, it should be assumed to be a console input.
+
+Solution:
+```python
+def is_even(a):
+    check = True
+    while(a>0):
+        if((a%10)%2 == 0):
+            a = a//10
+
+        else:
+            check = False
+            break
+    return check
+
+
+list1  = [x for x in range(1000,3001)]
+even = list(filter(is_even, list1))
+print((even))
+```
+
