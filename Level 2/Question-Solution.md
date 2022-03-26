@@ -39,6 +39,10 @@ c = int(input("Enter the number of columns : "))
 list = [[x*y for x in range(c)] for y in range(r)]
 print(list)
 ```
+<br><br><br>
+
+
+
 <details>
     <summary> Question 3</summary>
     <p>Question: Write a program that accepts a comma separated sequence of words as input and prints the words in a comma-separated sequence after sorting them alphabetically. Suppose the following input is supplied to the program: without,hello,bag,world Then, the output should be: bag,hello,without,world
