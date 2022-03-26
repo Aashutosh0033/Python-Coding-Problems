@@ -18,6 +18,10 @@ list = [int(x) for x in d.split(',')]
 list2 = [str(((2*c*x)/h)**(1/2)) for x in list]
 print(', '.join(list2))
 ```
+<br><br><br>
+
+
+
 <details>
     <summary> Question 2</summary>
     <p>
@@ -49,6 +53,8 @@ w = input("Enter comma seperated words : ")
 list = [x for x in w.split(',')]
 print(','.join(sorted(list)))
 ```
+<br><br><br>
+
 
 
 <details>
@@ -71,6 +77,8 @@ Solution:
 user = input("Enter a string : ")
 print(user.upper())
 ```
+<br><br><br>
+
 
 
 <details>
@@ -98,6 +106,7 @@ a = list(b)
 a.sort()
 print(' '.join(a))
 ```
+<br><br><br>
 
 
 
@@ -129,6 +138,8 @@ while(i<len(list1)):
     i += 1
 print(' '.join(list2))
 ```
+<br><br><br>
+
 
 
 <details>
@@ -156,6 +167,7 @@ list1  = [x for x in range(1000,3001)]
 even = list(filter(is_even, list1))
 print((even))
 ```
+<br><br><br>
 
 
 
