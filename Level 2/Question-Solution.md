@@ -173,5 +173,67 @@ print((even))
 ```
 <br><br><br>
 
+<details>
+<summary>Question 8</summary>
+<p>
+Question: Write a program that accepts a sentence and calculate the number of letters and digits. Suppose the following input is supplied to the program: hello world! 123 Then, the output should be: LETTERS 10 DIGITS 3
+<br>
+Hints: In case of input data being supplied to the question, it should be assumed to be a console input.
+</details>
+
+Solution : 
+
+```python
+user = input("Enter a string : ")
+nameList = list(user)
+
+countS = 0
+countN = 0
+countO = 0
+for i in nameList:
+    if(i.isnumeric()):
+        countN+=1
+    elif(i.isalpha()):
+        countS+=1
+
+    elif(i == " "):
+        pass
+    else:
+        countO+=1
+
+print("There are ", countS , " Letters ", countN , "Numbers and ", countO, " characters in the string.")
+```
+
+
+<details>
+<summary>Question 9</summary>
+<p>
+Question: Write a program that accepts a sentence and calculate the number of upper case letters and lower case letters. Suppose the following input is supplied to the program: Hello world! Then, the output should be: UPPER CASE 1 LOWER CASE 9
+<br>
+Hints: In case of input data being supplied to the question, it should be assumed to be a console input.
+</p>
+</details>
+
+Solution : 
+```python
+user = input("Enter a sentence with mixed upper case and lower case letters : ")
+stringList = list(user)
+
+countU = 0
+countL = 0
+countO = 0
+for i in stringList:
+    if(i.isupper()):
+        countU+=1
+    elif(i.islower()):
+        countL+=1
+    elif(i == " "):
+        pass
+    else:
+        countO += 1
+
+print("There are ", countU, " uppercase letters, ", countL," lowercase letters and ", countO , " characters in the string." )
+```
+
 
 
