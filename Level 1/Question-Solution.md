@@ -14,7 +14,8 @@ list2 = [str(x) for x in list1 if (x%7==0 and x%5!=0)] # List which has numbers 
 print(', '.join(list2))
 ```
 
-
+<br>
+<br>
 
 <details>
 <summary>Question 2</summary>
@@ -43,7 +44,8 @@ for i in range(0,user):
 print(', '.join(list))
 ```
 
-
+<br>
+<br>
 
 <details>
 <summary>Question 3 </summary>
@@ -61,7 +63,8 @@ dict = { x: x**2 for x in range(1,user+1)}
 print(dict)
 ```
 
-
+<br>
+<br>
 
 <details>
 <summary>Question 4</summary>
@@ -80,7 +83,8 @@ print(list)
 print(tuple(list))
 ```
 
-
+<br>
+<br>
 
 <details>
 <summary>Question 5</summary>
@@ -108,6 +112,8 @@ obj.getString()
 obj.printString()
 ```
 
+<br>
+<br>
 
 <details>
 <summary>Question 6</summary>
