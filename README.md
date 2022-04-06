@@ -22,4 +22,5 @@ He should use Python to solve more complex problem using more rich libraries fun
 
 **Problem Template** 
 <br/>Question<br/>
+Hints<br>
 Solution
