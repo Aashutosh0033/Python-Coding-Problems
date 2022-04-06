@@ -7,6 +7,7 @@
     </p>
 </details>
  Solution:
+ 
 ```python
 list1 = [x for x in range(2000,3201)] # List which has numbers in range 2000-3200
 list2 = [str(x) for x in list1 if (x%7==0 and x%5!=0)] # List which has numbers which are divisible by 7 and are not the multiple of 5
